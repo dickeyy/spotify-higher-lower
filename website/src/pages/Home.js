@@ -123,7 +123,7 @@ function HomePage() {
 
         <div className='artistImgCont'>
 
-          <img style={{ float: 'left' }} className='artistImg' src={artist1.images[0].url} alt='Artist Profile Pic' onClick={() => {
+          <img className='artistImg' src={artist1.images[0].url} alt='Artist Profile Pic' onClick={() => {
 
             if (artist1.popularity >= artist2.popularity) {
 
@@ -146,7 +146,7 @@ function HomePage() {
           }}></img>
         
 
-          <img style={{ float: 'right' }} className='artistImg' src={artist2.images[0].url} alt='Artist Profile Pic' onClick={() => {
+          <img className='artistImg' src={artist2.images[0].url} alt='Artist Profile Pic' onClick={() => {
 
             if (artist2.popularity >= artist1.popularity) {
 
@@ -174,7 +174,7 @@ function HomePage() {
 
         <div className='artistInfoCont'>
 
-          <p><p className='artistName'>{artist1.name}</p>     or     <p className='artistName'>{artist2.name}</p></p>
+          <p><a className='artistName' href={artist1.external_urls.spotify} target='_blank' rel="noreferrer">{artist1.name}</a>     or     <a className='artistName' href={artist2.external_urls.spotify} target='_blank' rel="noreferrer">{artist2.name}</a></p>
 
         </div>
 

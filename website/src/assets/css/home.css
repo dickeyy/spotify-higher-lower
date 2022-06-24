@@ -59,6 +59,8 @@
   height: 400px;
   width: 400px;
   border-radius: 13px;
+  margin-left: 20px;
+  margin-right: 20px
 }
 
 .artistImg:hover {
@@ -83,4 +85,9 @@
   margin-left: 10px;
   color: #1ed760;
   font-weight: 700;
+  text-decoration: none;
+}
+
+.artistName:hover {
+  text-decoration: underline;
 }
