@@ -9,7 +9,7 @@ const sleep = (milliseconds) => {
 
 function HomePage() {
 
-  const CLIENT_ID = '92a0160327e147dab9691d56ca68fbd4'
+  const CLIENT_ID = 'YOUR_CLIENT_ID'
   const REDIRECT_URI = "http://localhost:3000"
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
   const RESPONSE_TYPE = "token"
