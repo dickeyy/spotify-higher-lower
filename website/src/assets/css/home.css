@@ -56,8 +56,10 @@
 }
 
 .artistImg {
-  height: 400px;
-  width: 400px;
+  /* height: 400px;
+  width: 400px; */
+  height: 25rem;
+  width: 25rem;
   border-radius: 13px;
   margin-left: 20px;
   margin-right: 20px
@@ -69,7 +71,7 @@
 }
 
 .artistImgCont {
-  width: 55vw;
+  /* width: 55vw; */
   height: 400px;
 }
 
